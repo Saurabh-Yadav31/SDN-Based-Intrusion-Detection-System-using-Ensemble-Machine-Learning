@@ -72,11 +72,13 @@ h1 ping -c 100 10.0.0.2
 h1 hping3 -S -c 100 -p 80 10.0.0.2
 
 ### 📊 Results Summary
-Model	     Accuracy (100)	 Accuracy (500)	 F1-Score (100)	 F1-Score (500)
-XGBoost	       99.34%	         96.61%	        99.66%	        98.22%
-LightGBM	     98.05%	         97.88%	        98.99%	        98.91%
-CatBoost	     96.89%	         96.71%	        98.41%	        98.33%
-AdaBoost	     95.89%	         96.56%	        97.90%	        98.25%
+| Model     | Accuracy (100 Packets) | Accuracy (500 Packets) | F1-Score (100 Packets) | F1-Score (500 Packets) |
+|-----------|------------------------|-------------------------|-------------------------|-------------------------|
+| XGBoost   | 99.34%                 | 96.61%                  | 99.66%                  | 98.22%                  |
+| LightGBM  | 98.05%                 | 97.88%                  | 98.99%                  | 98.91%                  |
+| CatBoost  | 96.89%                 | 96.71%                  | 98.41%                  | 98.33%                  |
+| AdaBoost  | 95.89%                 | 96.56%                  | 97.90%                  | 98.25%                  |
+
 
 🔍 100% recall in all models
 📉 Accuracy slightly decreased with traffic volume due to false positives
