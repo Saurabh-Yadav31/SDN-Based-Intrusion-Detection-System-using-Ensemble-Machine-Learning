@@ -36,7 +36,7 @@ A real-time Intrusion Detection System (IDS) integrated with Software Defined Ne
 ---
 
 ## 🗂️ Project Structure
-<pre> ```bash SDN_IDS_Project/ ├── newids.py # Ryu-based IDS integration script ├── train_model.py # Training pipeline for all ML models ├── preprocessing/ # Preprocessing scripts (missing value handling, encoding) ├── models/ # Saved ML models (.joblib) ├── dataset/ # Preprocessed NSL-KDD dataset ├── results/ # Graphs, metrics, confusion matrices └── README.md ``` </pre>
+``` SDN_IDS_Project/ ├── newids.py # Ryu-based IDS integration script ├── train_model.py # Training pipeline for all ML models ├── preprocessing/ # Preprocessing scripts (missing value handling, encoding) ├── models/ # Saved ML models (.joblib) ├── dataset/ # Preprocessed NSL-KDD dataset ├── results/ # Graphs, metrics, confusion matrices └── README.md ```
 
 ---
 
