@@ -36,14 +36,7 @@ A real-time Intrusion Detection System (IDS) integrated with Software Defined Ne
 ---
 
 ## 🗂️ Project Structure
-SDN_IDS_Project/
-├── newids.py # Ryu-based IDS integration script
-├── train_model.py # Training pipeline for all ML models
-├── preprocessing/ # Preprocessing scripts (missing value handling, encoding)
-├── models/ # Saved ML models (.joblib)
-├── dataset/ # Preprocessed NSL-KDD dataset
-├── results/ # Graphs, metrics, confusion matrices
-└── README.md
+<pre> ```bash SDN_IDS_Project/ ├── newids.py # Ryu-based IDS integration script ├── train_model.py # Training pipeline for all ML models ├── preprocessing/ # Preprocessing scripts (missing value handling, encoding) ├── models/ # Saved ML models (.joblib) ├── dataset/ # Preprocessed NSL-KDD dataset ├── results/ # Graphs, metrics, confusion matrices └── README.md ``` </pre>
 
 ---
 
@@ -80,19 +73,20 @@ h1 hping3 -S -c 100 -p 80 10.0.0.2
 | AdaBoost  | 95.89%                 | 96.56%                  | 97.90%                  | 98.25%                  |
 
 
-🔍 100% recall in all models
-📉 Accuracy slightly decreased with traffic volume due to false positives
-🏆 LightGBM was most stable and balanced; XGBoost best under low traffic
+- 🔍 100% recall in all models
+- 📉 Accuracy slightly decreased with traffic volume due to false positives
+- 🏆 LightGBM was most stable and balanced; XGBoost best under low traffic
 
 ### 🌐 Future Work
-✅ Test on the InSDN dataset (realistic SDN-specific intrusion scenarios)
-🧪 Incorporate real-time flow rule modification for active mitigation
-⚙️ Integrate automated hyperparameter tuning (e.g., GridSearchCV)
-📡 Deploy in larger-scale virtual networks for stress testing
+- ✅ Test on the InSDN dataset (realistic SDN-specific intrusion scenarios)
+- 🧪 Incorporate real-time flow rule modification for active mitigation
+- ⚙️ Integrate automated hyperparameter tuning (e.g., GridSearchCV)
+- 📡 Deploy in larger-scale virtual networks for stress testing
 
 ### 🙋‍♂️ Author
 Saurabh Kumar Yadav
 B.Tech in Information Science & Engineering
 Focus Areas: SDN, Network Security, Machine Learning, Artificial Engineering, Data Science
 
-Connect: [LinkedIn](https://www.linkedin.com/in/saurabh-kumar-yadav-201026255/) | GitHub
+Connect: [LinkedIn](https://www.linkedin.com/in/saurabh-kumar-yadav-201026255/) | 🔗 [GitHub Profile](https://github.com/Saurabh-Yadav31)
+
