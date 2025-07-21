@@ -1,0 +1,21 @@
+source ryu-python3.9-venv/bin/activate
+cd Desktop/MininetIDS-main
+python3 newMN.py
+clearmn
+clearRyuBuffer
+startTopology linearTopo
+listModels
+startRyuIDS NSLKDD-catboost
+startRyuIDS NSLKDD-xgboost
+startRyuIDS NSLKDD-lightgbm
+startRyuIDS NSLKDD-adaboost
+
+To send 100 normal packets: 
+h1 ping -c 100 10.0.0.2
+To send 100 attack packets: 
+h1 hping3 -S -c 100 -p 80 10.0.0.2
+
+To send 500 normal packets: 
+h1 ping -c 500 10.0.0.2
+To send 500 attack packets: 
+h1 hping3 -S -c 500 -p 80 10.0.0.2
